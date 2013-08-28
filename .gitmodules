@@ -1,0 +1,3 @@
+[submodule "MSPullToRefreshController"]
+	path = MSPullToRefreshController
+	url = git@github.com:bogardon/MSPullToRefreshController.git

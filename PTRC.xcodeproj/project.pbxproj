@@ -16,6 +16,8 @@
 		DB6B6E5717CE369800EB8DA4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6B6E5617CE369800EB8DA4 /* Default.png */; };
 		DB6B6E5917CE369800EB8DA4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6B6E5817CE369800EB8DA4 /* Default@2x.png */; };
 		DB6B6E5B17CE369800EB8DA4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6B6E5A17CE369800EB8DA4 /* Default-568h@2x.png */; };
+		DB6B6E6317CE36E600EB8DA4 /* SomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6B6E6217CE36E600EB8DA4 /* SomeViewController.m */; };
+		DB6B6E6717CE3A3700EB8DA4 /* MSPullToRefreshController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6B6E6617CE3A3700EB8DA4 /* MSPullToRefreshController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,10 @@
 		DB6B6E5617CE369800EB8DA4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		DB6B6E5817CE369800EB8DA4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		DB6B6E5A17CE369800EB8DA4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DB6B6E6117CE36E600EB8DA4 /* SomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SomeViewController.h; sourceTree = "<group>"; };
+		DB6B6E6217CE36E600EB8DA4 /* SomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SomeViewController.m; sourceTree = "<group>"; };
+		DB6B6E6517CE3A3700EB8DA4 /* MSPullToRefreshController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSPullToRefreshController.h; path = MSPullToRefreshController/PullToRefreshDemo/MSPullToRefreshController.h; sourceTree = SOURCE_ROOT; };
+		DB6B6E6617CE3A3700EB8DA4 /* MSPullToRefreshController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSPullToRefreshController.m; path = MSPullToRefreshController/PullToRefreshDemo/MSPullToRefreshController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +84,12 @@
 		DB6B6E4A17CE369800EB8DA4 /* PTRC */ = {
 			isa = PBXGroup;
 			children = (
+				DB6B6E6517CE3A3700EB8DA4 /* MSPullToRefreshController.h */,
+				DB6B6E6617CE3A3700EB8DA4 /* MSPullToRefreshController.m */,
 				DB6B6E5317CE369800EB8DA4 /* AppDelegate.h */,
 				DB6B6E5417CE369800EB8DA4 /* AppDelegate.m */,
+				DB6B6E6117CE36E600EB8DA4 /* SomeViewController.h */,
+				DB6B6E6217CE36E600EB8DA4 /* SomeViewController.m */,
 				DB6B6E4B17CE369800EB8DA4 /* Supporting Files */,
 			);
 			path = PTRC;
@@ -166,6 +176,8 @@
 			files = (
 				DB6B6E5117CE369800EB8DA4 /* main.m in Sources */,
 				DB6B6E5517CE369800EB8DA4 /* AppDelegate.m in Sources */,
+				DB6B6E6317CE36E600EB8DA4 /* SomeViewController.m in Sources */,
+				DB6B6E6717CE3A3700EB8DA4 /* MSPullToRefreshController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
